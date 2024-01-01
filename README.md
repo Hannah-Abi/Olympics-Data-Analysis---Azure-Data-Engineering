@@ -11,3 +11,4 @@
 5. **Microsoft Power BI** - build an interactive dashboard. 
 ### Complete Project Execution 
 #### Step 1: Data Ingestion using ADF
+- Data ingestion over HTTP 
