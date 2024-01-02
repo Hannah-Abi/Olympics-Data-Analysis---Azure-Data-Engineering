@@ -11,4 +11,8 @@
 5. **Microsoft Power BI** - build an interactive dashboard. 
 ### Complete Project Execution 
 #### Step 1: Data Ingestion using ADF
-- Data ingestion over HTTP 
+- **Build a pipeline:** A pipeline orchestrates the movement and transformation of data; then add a Copy Data activity to the pipeline.
+- **Configure Source Dataset:** In the Copy Data activity, configure the source dataset to point to the HTTP server. Specify the HTTP linked service (URL).
+- **Configure Destination Dataset:** Configure the destination dataset to point to the raw data folder in the Azure Data Lake Storage Gen 2. 
+- **Debug and Validate:** Test the pipeline by running it in debug mode. Validate that data is ingested from the HTTP server successfully.
+![Data Ingestion](https://raw.github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering/blob/main/images/data-ingestion.png)
