@@ -24,7 +24,9 @@
 #### Step 3: Data Loading to Azure Synapse Analytics 
 - Data from the Azure Data Lake Gen2 is loaded into Microsoft Power BI in Azure Synapse Workspace. There are two way to do it:
   1. Writing the SQL scripts to create and store views for all individuals tables within serverless SQL database
-  2. Creat **a pipeline in Synapse Analytics** that dynamically create the views for all tables:
+  ![Data Transformation](./images/ SQL Data Loading.png)
+ 
+  3. Creat **a pipeline in Synapse Analytics** that dynamically create the views for all tables:
      * Create a store procedure that dynamically create the views for all the tables in Data Lake (see the following script)
      * In Manage tab, create a new link service to connect to the SQL Database in Synapse. This link service connection is to access the stored procedure create earlier
     
