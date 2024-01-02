@@ -16,4 +16,6 @@
 - **Configure Destination Dataset:** Configure the destination dataset to point to the raw data folder in the Azure Data Lake Storage Gen 2. 
 - **Debug and Validate:** Test the pipeline by running it in debug mode. Validate that data is ingested from the HTTP server successfully.
 ![Data Ingestion](./images/data-ingestion.png)
-![Data Ingestion](https://raw.github.com/Hannah-Abi/Olympics-Data-Analysis---Azure-Data-Engineering/blob/main/images/data-ingestion.png)
+#### Step 2: Data Transformation 
+- Use the Azure Databricks workspace to mount the ADLS Gen2 storage account to make it accessible from Data Factory, providing sonme authentication in the backend (App Registrations)
+- Using Apache Spark to quickly clean the data (change datatypes
