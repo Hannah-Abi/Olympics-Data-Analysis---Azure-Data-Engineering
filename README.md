@@ -18,7 +18,8 @@
 ![Data Ingestion](./images/data-ingestion.png)
 #### Step 2: Data Transformation 
 - Use the Azure Databricks workspace to mount the ADLS Gen2 storage account to make it accessible from Data Factory, providing sonme authentication in the backend (App Registrations)
-- Using Apache Spark to quickly clean the data (change datatypes
+- Using Apache Spark to quickly clean the data
+- ![Data Transformation](./images/ezgif.com-video-to-gif-converter.gif)
 
 #### Step 3: Data Loading to Azure Synapse Analytics 
 - Data from the Azure Data Lake Gen2 is loaded into Microsoft Power BI in Azure Synapse Workspace. There are two way to do it:
