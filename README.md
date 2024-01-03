@@ -37,3 +37,5 @@
      * In Manage tab, create a new link service to connect to the SQL Database in Synapse. This link service connection is to access the stored procedure create earlier
 ![Data Loading](./images/data-loading-pipeline.png)
 #### Step 4: Data Reporting 
+Power BI connect to the AZURE Synapse Analytics - serverless SQL database. Th report is developed to visualise Tokyo Olympic dataset. 
+ ![Data Reporting](./images/Tokyo-Dashboard.png)
