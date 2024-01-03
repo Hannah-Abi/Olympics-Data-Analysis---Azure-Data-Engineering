@@ -21,15 +21,18 @@
 - **Configure Source Dataset:** In the Copy Data activity, configure the source dataset to point to the HTTP server. Specify the HTTP linked service (URL).
 - **Configure Destination Dataset:** Configure the destination dataset to point to the raw data folder in the Azure Data Lake Storage Gen 2. 
 - **Debug and Validate:** Test the pipeline by running it in debug mode. Validate that data is ingested from the HTTP server successfully.
+  
 ![Data Ingestion](./images/data-ingestion.png)
 #### Step 2: Data Transformation 
 - Use the Azure Databricks workspace to mount the ADLS Gen2 storage account to make it accessible from Data Factory, providing sonme authentication in the backend (App Registrations)
 - Using Apache Spark to quickly clean the data
+  
 - ![Data Transformation](./images/data-ingestion-script.gif)
 
 #### Step 3: Data Loading to Azure Synapse Analytics 
 - Data from the Azure Data Lake Gen2 is loaded into Microsoft Power BI in Azure Synapse Workspace. There are two way to do it:
   1. Writing the SQL scripts to create and store views for all individuals tables within serverless SQL database
+     
   ![Data Loading](./images/data-loading-script.png)
  
   3. Create **a pipeline in Synapse Analytics** that dynamically create the views for all tables:
