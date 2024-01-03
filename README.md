@@ -1,4 +1,6 @@
 ## Olympics-Data-Analysis-Azure-Data-Engineering-Project
+![Data Engineering Project](./images/data-loading-script.png)
+
 ### Overview
 - This project is to anslyse Olympics Data using a variety of Azure resources, including including Azure Data Factory, Data Lake Gen 2, Synapse Analytics, and Azure Databricks.
 - Some data analysis questions:
