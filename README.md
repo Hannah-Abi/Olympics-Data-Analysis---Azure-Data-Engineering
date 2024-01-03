@@ -2,7 +2,7 @@
 ![Data Engineering Project](./images/data-engineering-project.png)
 
 ### Overview
-- This project is to anslyse Olympics Data using a variety of Azure resources, including including Azure Data Factory, Data Lake Gen 2, Synapse Analytics, and Azure Databricks.
+- This project is to create an end to end data platform right from Data Ingestion, Data Transformation, Data Loading and Reporting. The use case for this project is building an end to end solution by ingesting the tables from HTTP serverusing Azure Data Factory and then store the data in Azure Data Lake Gen2. Then Azure databricks is used to transform the RAW data to the most cleanest form of data and then I use Azure Synapse Analytics to load the clean data and finally using Microsoft Power BI to integrate with Azure synapse analytics to build an interactive dashboard.
 - Some data analysis questions:
   1. Which countries do most athletes come from?
   2. Which discipline is most popular and which country has the highest participants in it?
