@@ -11,7 +11,7 @@
 - This project serves as a learning opprtunity for common data engineering practices, focusing on ETL pipelines techniques. The skills sharpened here are availables for small to medium-sized businesses aiming to migrate their local data to the cloud. 
 ### The tools that are covered in this project:
 1. **Azure Data Factory(ADF)** - to ingest the dataset over HTTP
-2. **Azure Data Lake Storage Gen2** - to the data
+2. **Azure Data Lake Storage Gen2** - to store the RAW data
 3. **Azure Databricks** - to transform the RAW data to the most cleanest form of data
 4. **Azure Synapse Analytics** - to load the clean data
 5. **Microsoft Power BI** - build an interactive dashboard. 
@@ -25,7 +25,7 @@
 #### Step 2: Data Transformation 
 - Use the Azure Databricks workspace to mount the ADLS Gen2 storage account to make it accessible from Data Factory, providing sonme authentication in the backend (App Registrations)
 - Using Apache Spark to quickly clean the data
-- ![Data Transformation](./images/ezgif.com-video-to-gif-converter.gif)
+- ![Data Transformation](./images/data-ingestion-script.gif)
 
 #### Step 3: Data Loading to Azure Synapse Analytics 
 - Data from the Azure Data Lake Gen2 is loaded into Microsoft Power BI in Azure Synapse Workspace. There are two way to do it:
