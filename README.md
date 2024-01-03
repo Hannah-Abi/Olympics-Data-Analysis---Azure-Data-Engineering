@@ -33,8 +33,8 @@
   ![Data Loading](./images/data-loading-script.png)
  
   3. Create **a pipeline in Synapse Analytics** that dynamically create the views for all tables:
-     * Create a store procedure that dynamically create the views for all the tables in Data Lake (see the following script)
-     * In Manage tab, create a new link service to connect to the SQL Database in Synapse. This link service connection is to access the stored procedure create earlier
+     * Create a store procedure that dynamically create the views for all the tables in Data Lake (see the 'stored procedure.sql' script)
+     * In Manage tab, create a new link service to connect to the SQL Database in Synapse. This link service connection is to access the stored procedure created earlier
 ![Data Loading](./images/data-loading-pipeline.png)
 #### Step 4: Data Reporting 
 Power BI connect to the AZURE Synapse Analytics - serverless SQL database. Th report is developed to visualise Tokyo Olympic dataset. 
