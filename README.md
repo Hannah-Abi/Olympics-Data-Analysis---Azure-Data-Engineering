@@ -1,4 +1,4 @@
-## Olympics-Data-Analysis-Azure-Data-Engineering-Project
+## Olympics Data Analytics | End-to-End Azure Data Engineering Project
 ![Data Engineering Project](./images/data-engineering-project.png)
 
 ### Overview
